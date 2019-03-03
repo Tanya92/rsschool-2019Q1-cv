@@ -18,11 +18,15 @@ I’m very hard-working if I’m interested in this project. I prefer not to was
 * React/Redux basics
 
 **Code examples**:
+ * [React to-do-app](https://github.com/Tanya92/to-do-app)  
+ * [React drum-machine](https://github.com/Tanya92/drum-machine)  
+ * [React marked-markdown](https://github.com/Tanya92/marked-markdown)  
+ * [React random-quotes](https://github.com/Tanya92/random-quotes)
 
 **Experience**:
 1. Geek Brains “Basics of programming course”;
-2. [Learning www.FreeCodeCamp.org](www.FreeCodeCamp.org);
-3. Reading a book [Eloquent JavaScript](https://eloquentjavascript.net/);
+2. Learning [www.FreeCodeCamp.org](www.FreeCodeCamp.org);
+3. Reading and doing exercises from the book [Eloquent JavaScript](https://eloquentjavascript.net/);
 
 **Education**:
 * 2014 – graduated Belorussian State Pedagogical University named after Maxim Tank, mathematic faculty,specialty – Mathematic and Informatic
