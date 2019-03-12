@@ -1,3 +1,15 @@
+@font-face{
+  font-family: 'Crimson Text';
+  src: url('./assets/Crimson_Text/CrimsonText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
 body {
     width: 100%;
     display: flex;
@@ -30,7 +42,7 @@ body {
       display: flex;
       box-sizing: border-box;
       flex-grow: 1;
-      border: 2px solid rgb(235, 176, 176);
+      border: 4px solid rgb(235, 176, 176);
   }
   .menu li:hover {
     border: 4px solid rgb(8, 11, 179);
@@ -47,6 +59,10 @@ body {
 
   main {
     background: url('assets/body.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
   }
   h2 {
     position: relative;
@@ -59,13 +75,36 @@ body {
   #about {
       display: flex;
   }
-  .image-container img {
-     border-radius: 50%;
-     border-bottom-left-radius: 25%;
-     border-bottom-right-radius: 25%;
-     border-top-left-radius: 25%;
-     border-top-right-radius: 25%;
+
+  
+  .my-image {
+     border-radius: 25%;
      border: 5px dotted black;
+  }
+
+  .about-container {
+    margin: 0 20px;
+  }
+  .about-container p:last-child {
+    margin-bottom: 0;
+  }
+
+  #skills, #code-examples, #experience, #education, #english-level {
+    margin-left: 23%;
+    font-size: 18px;
+  }
+
+  #code-examples a, #experience a{
+    color: #5522bb;
+    text-decoration: none;
+  }
+
+  #code-examples a:hover, #experience a:hover  {
+    color: #127446;
+  }
+
+  #english-level p {
+    margin-left: 20px;
   }
   .contacts-container {
       display: inline-block;
