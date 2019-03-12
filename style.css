@@ -136,7 +136,6 @@ body {
       display: flex;
   }
 
-  
   .my-image {
      border-radius: 25%;
      border: 5px dotted black;
@@ -175,7 +174,6 @@ body {
   }
 
   .contacts {
-    
     font-size: 20px;
     line-height: 21px;
     margin-top: 32px;
@@ -192,5 +190,5 @@ body {
   }
 
   .contacts a:hover {
-    color: #b9eaf7;
+    color: #b9eaf7
   }
