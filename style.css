@@ -11,12 +11,12 @@ body {
     min-width: 600px;
   }
   
-  header {
+  header, footer {
       text-align: center;
-      background:#eed3ec;
+      background-image: url('assets/background.jpg');
   }
   h1 {
-      color: #7f0891;
+      color: #eddcf0;
   }
   .menu {
       display: flex;
@@ -30,22 +30,27 @@ body {
       display: flex;
       box-sizing: border-box;
       flex-grow: 1;
-      border: 1px solid black;
+      border: 2px solid rgb(235, 176, 176);
   }
   .menu li:hover {
-    border: 1px solid red;
+    border: 4px solid rgb(8, 11, 179);
   }
   .menu a {
       text-decoration: none;
       font-family: sans-serif;
-      color: #350f7c;
+      color: #bdafd8;
       margin: auto;
   }
   .menu a:hover {
-      color: #15013b;
+      color: #e5ddf3;
+  }
+
+  main {
+    background: url('assets/body.jpg');
   }
   #about {
       display: flex;
+      margin-left: 20px;
   }
   .image-container {
      
